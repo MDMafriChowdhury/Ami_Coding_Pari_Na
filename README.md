@@ -44,6 +44,6 @@ These instructions will help you set up and run the project on your local machin
 
 - To access the API endpoint for retrieving input values, use the following URL:
    http://127.0.0.1:8000/api/get-all-input-values/
-  * demo : http://127.0.0.1:8000/api/get-all-input-values/?start_datetime=2023-08-01T00:00:00&end_datetime=2023-08-14T23:59:59&user_id=1
 
 - Provide query parameters start_datetime, end_datetime, and user_id to specify the date range and user.
+  ** demo : http://127.0.0.1:8000/api/get-all-input-values/?start_datetime=2023-08-01T00:00:00&end_datetime=2023-08-14T23:59:59&user_id=1
