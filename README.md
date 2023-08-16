@@ -1,61 +1,47 @@
-Ami Coding Pari Na
+# Ami Coding Pari Na
+
 "Ami Coding Pari Na" is a web application developed using the Django framework. It provides user authentication, a search feature, and an API endpoint to retrieve input values.
 
-Features
-User Registration and Login: Users can register and log in to the application.
-Khoj Search: Users can input comma-separated integers and a search value. The application will store the input values, sort them, and check if the search value exists.
-API Endpoint: An API endpoint allows users to retrieve all their previously entered input values within a specific date range.
-Getting Started
+## Features
+
+- User Registration and Login: Users can register and log in to the application.
+- Khoj Search: Users can input comma-separated integers and a search value. The application will store the input values, sort them, and check if the search value exists.
+- API Endpoint: An API endpoint allows users to retrieve all their previously entered input values within a specific date range.
+
+## Getting Started
+
 These instructions will help you set up and run the project on your local machine.
 
-Prerequisites
-Python (>= 3.6)
-Django (>= 3.0)
-Installation
-Clone the repository:
+### Prerequisites
 
-sh
-Copy code
-git clone https://github.com/your-username/amicodingparina_project.git
-cd amicodingparina_project
-Create a virtual environment (optional but recommended):
+- Python (>= 3.6)
+- Django (>= 3.0)
 
-sh
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install the required dependencies:
+### Installation
 
-sh
-Copy code
-pip install -r requirements.txt
-Usage
-Apply migrations:
+1. Clone the repository:
 
-sh
-Copy code
-python manage.py migrate
-Run the development server:
+   ```sh
+   git clone https://github.com/your-username/amicodingparina_project.git
+   cd amicodingparina_project
 
-sh
-Copy code
-python manage.py runserver
-Access the application in your browser at http://127.0.0.1:8000/.
+2. Create a virtual environment (optional but recommended):
 
-Screenshots
-Login Page
-Login Page
+      ```sh
+      python -m venv venv
+      source venv/bin/activate  # On Windows: venv\Scripts\activate
+## Usage
+1. Apply migrations:
 
-Registration Page
-Registration Page
+      ```sh
+      python manage.py migrate
+2. Run the development server:
+      ```sh
+      python manage.py runserver
+3. Access the application in your browser at http://127.0.0.1:8000/.
 
-Khoj Search Page
-Khoj Search Page
+## API Endpoint
 
-API Endpoint
-To access the API endpoint for retrieving input values, use the following URL:
-http://127.0.0.1:8000/api/get-all-input-values/
-
-Provide query parameters start_datetime, end_datetime, and user_id to specify the date range and user.
-
-License
+- To access the API endpoint for retrieving input values, use the following URL:
+   http://127.0.0.1:8000/api/get-all-input-values/
+- Provide query parameters start_datetime, end_datetime, and user_id to specify the date range and user.
